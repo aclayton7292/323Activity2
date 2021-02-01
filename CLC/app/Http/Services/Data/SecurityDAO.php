@@ -62,7 +62,7 @@ class SecurityDAO{
         
        
             //add user
-            $this->db = mysqli_connect("jhdjjtqo9w5bzq2t.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "dg31i4996aumjsx4", "votlj20l2eaf1h6n", "ica2");
+            $this->db = mysqli_connect("jhdjjtqo9w5bzq2t.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "dg31i4996aumjsx4", "votlj20l2eaf1h6n", "keolpuetjk8bnvra");
             $sql_statement_user = "INSERT INTO `users` (`ID`, `USERNAME`, `PASSWORD`) VALUES (NULL, '$username', '$password')";
             if (mysqli_query($this->db, $sql_statement_user)) {
                 return true;
