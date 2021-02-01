@@ -18,7 +18,7 @@ Route::get('/registerUser', function(){
         return view('showRegister');
 });
 Route::get('/login5', function(){
-    return view('Login3');
+    return view('login3');
 });
 
 
